@@ -33,6 +33,12 @@ public class RecursivTest {
         assertThat(recursiv.length("a")).isEqualTo(1);
     }
 
+    @Test
+    @DisplayName("WHEN a longer word is received THEN its lenght is returned")
+    void longWord() {
+        assertThat(recursiv.length("averylongword")).isEqualTo(13);
+    }
+
 
 }
 
