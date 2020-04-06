@@ -6,7 +6,7 @@ public class Recursiv {
         if (word.isEmpty()) {
             return 0;
         } else {
-            return 1;
+            return 1 + length(word.substring(1));
         }
     }
 }
