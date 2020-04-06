@@ -38,9 +38,4 @@ public class RecursivTest {
     void longWord() {
         assertThat(recursiv.length("averylongword")).isEqualTo(13);
     }
-
-
 }
-
-// empty string return 0 : RED
-// empty string return 0 : GREEN
