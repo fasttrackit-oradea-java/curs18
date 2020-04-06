@@ -32,6 +32,8 @@ public class RecursivTest {
     void singleLetter() {
         assertThat(recursiv.length("a")).isEqualTo(1);
     }
+
+
 }
 
 // empty string return 0 : RED
